@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*
+
+Sitemap: https://onion-setu.vercel.app/sitemap.xml
+
+# LLMs
+# See https://onion-setu.vercel.app/llms.txt

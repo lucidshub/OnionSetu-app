@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<title>OnionSetu — AI-Assisted Onion Quality Assessment</title>
+<rect width="1200" height="630" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1200" height="8" fill="#7A263A"/>
+<!-- Left brand -->
+<g transform="translate(64,84)">
+  <!-- mark -->
+  <g transform="scale(0.85)">
+    <g fill="#7A263A"><path d="M60.5 47C58.4 32 58.6 16.4 60.6 4c2.2 12.4 2.4 28 1 43z"/><path d="M56.8 47.6c-4.6-9.6-11.6-18-19.9-24.4 5.3 9.8 12.4 18.3 20.7 24.9z"/><path d="M64.2 47.6c4.6-9.6 11.6-18 19.9-24.4-5.3 9.8-12.4 18.3-20.7 24.9z"/></g>
+    <path d="M60 47.5C41.5 57.5 9 79 9 104.5 9 130 31.8 148.5 60 148.5S111 130 111 104.5C111 79 78.5 57.5 60 47.5Z" fill="none" stroke="#7A263A" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M60 47.5c18.5 10 51 31.5 51 57 0 25.5-22.8 44-51 44 20.4 0 37-19.7 37-44 0-19.2-13.9-42.9-37-57Z" fill="#7A263A"/>
+  </g>
+  <text x="116" y="78" font-family="Times New Roman, serif" font-size="56" letter-spacing="-0.02em"><tspan fill="none" stroke="#7A263A" stroke-width="1.8">Onion</tspan><tspan fill="#7A263A">Setu</tspan></text>
+  <text x="116" y="104" font-family="Instrument Sans, system-ui, sans-serif" font-size="13" letter-spacing="0.14em" font-weight="700" fill="#8a7a74">AI-ASSISTED ONION QUALITY ASSESSMENT</text>
+</g>
+<!-- Headline -->
+<text x="64" y="280" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="700" fill="#17110F">Smarter Onion Grading.</text>
+<text x="64" y="340" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="700" fill="#7A263A">Stronger Evidence.</text>
+<text x="64" y="384" font-family="Instrument Sans, system-ui, sans-serif" font-size="18" fill="#6B5A54">Multi-view capture · Human-in-the-loop · Versioned policy · SHA-256 reports · Offline-first</text>
+<!-- Stats -->
+<g transform="translate(64,430)">
+  <rect x="0" y="0" width="220" height="96" rx="14" fill="#FDFBF9" stroke="#EDE3DC"/>
+  <text x="22" y="30" font-family="Instrument Sans, sans-serif" font-size="11" letter-spacing="0.1em" font-weight="700" fill="#8a7a74">GRADE A</text>
+  <text x="22" y="66" font-family="Fraunces, serif" font-size="32" font-weight="700" fill="#7A263A">68%</text>
+  <text x="22" y="84" font-family="Instrument Sans, sans-serif" font-size="11" fill="#6B5A54">Lasalgaon APMC · NAFED</text>
+  <rect x="236" y="0" width="220" height="96" rx="14" fill="#FDFBF9" stroke="#EDE3DC"/>
+  <text x="258" y="30" font-family="Instrument Sans, sans-serif" font-size="11" letter-spacing="0.1em" font-weight="700" fill="#8a7a74">POLICY</text>
+  <text x="258" y="66" font-family="Fraunces, serif" font-size="28" font-weight="700" fill="#17110F">v2026.1</text>
+  <text x="258" y="84" font-family="Instrument Sans, sans-serif" font-size="11" fill="#6B5A54">35–70 mm · verified</text>
+  <rect x="472" y="0" width="220" height="96" rx="14" fill="#7A263A" stroke="#7A263A"/>
+  <text x="494" y="30" font-family="Instrument Sans, sans-serif" font-size="11" letter-spacing="0.1em" font-weight="700" fill="white" opacity="0.8">EVIDENCE</text>
+  <text x="494" y="62" font-family="Instrument Sans, sans-serif" font-size="16" font-weight="700" fill="white">SHA-256 · QR</text>
+  <text x="494" y="82" font-family="Instrument Sans, sans-serif" font-size="11" fill="white" opacity="0.85">Tamper-evident report</text>
+</g>
+<text x="64" y="590" font-family="Instrument Sans, sans-serif" font-size="12" fill="#8a7a74">onion-setu.vercel.app · Built for procurement centers in Nashik, Maharashtra</text>
+</svg>
