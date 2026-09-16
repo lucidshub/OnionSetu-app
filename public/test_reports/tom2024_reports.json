@@ -1,0 +1,5282 @@
+[
+  {
+    "Report ID": "OG-TEST-1000",
+    "Date": "2026-09-06T22:14:11.887532",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1000",
+    "Hash (SHA-256)": "test-hash-0000-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 74,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/682718922_1675763372433_640x480-bDmjt8.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/682718922_1675763372433_640x480-bDmjt8.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 74,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1001",
+    "Date": "2026-09-06T22:14:11.892642",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1001",
+    "Hash (SHA-256)": "test-hash-0001-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 68,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1792195611_1681294338022_640x480-NZuGc5.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 68mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1792195611_1681294338022_640x480-NZuGc5.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 68,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 68mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1002",
+    "Date": "2026-09-06T22:14:11.895055",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1002",
+    "Hash (SHA-256)": "test-hash-0002-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 44,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/452571914_1666337208836_640x480 - Copie - Copie-1XYEfH.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 44mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/452571914_1666337208836_640x480 - Copie - Copie-1XYEfH.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 44,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 44mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1003",
+    "Date": "2026-09-06T22:14:11.897294",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 95,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1003",
+    "Hash (SHA-256)": "test-hash-0003-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 60,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1298518696_1673423805780_640x480-w6K6bj.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 95,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 60mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1298518696_1673423805780_640x480-w6K6bj.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 60,
+        "defect": "Healthy",
+        "confidence": 95,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 60mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1004",
+    "Date": "2026-09-06T22:14:11.900517",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1004",
+    "Hash (SHA-256)": "test-hash-0004-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/615680274_1677143750000_640x480-dmCTbG.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/615680274_1677143750000_640x480-dmCTbG.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Rotten",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1005",
+    "Date": "2026-09-06T22:14:11.901985",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1005",
+    "Hash (SHA-256)": "test-hash-0005-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1572214766_1670426584307_640x480-G2S6jh.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1572214766_1670426584307_640x480-G2S6jh.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Rotten",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1006",
+    "Date": "2026-09-06T22:14:11.903873",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1006",
+    "Hash (SHA-256)": "test-hash-0006-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 44,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/2081263874_1674057549452_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 44mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2081263874_1674057549452_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 44,
+        "defect": "Healthy",
+        "confidence": 91,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 44mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1007",
+    "Date": "2026-09-06T22:14:11.907289",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1007",
+    "Hash (SHA-256)": "test-hash-0007-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/353247771_1666778448610_640x480-RMEkcK.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/353247771_1666778448610_640x480-RMEkcK.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 72mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1008",
+    "Date": "2026-09-06T22:14:11.908977",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1008",
+    "Hash (SHA-256)": "test-hash-0008-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 49,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1277257138_1666257686472_640x480-8u0Q0k.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 49mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1277257138_1666257686472_640x480-8u0Q0k.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 49,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 49mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1009",
+    "Date": "2026-09-06T22:14:11.910330",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1009",
+    "Hash (SHA-256)": "test-hash-0009-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 42,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1506528465_1680691091542_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1506528465_1680691091542_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 42,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1010",
+    "Date": "2026-09-06T22:14:11.912247",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1010",
+    "Hash (SHA-256)": "test-hash-0010-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 44,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/2005829481_1659625344751-iAqNgv.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 44mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2005829481_1659625344751-iAqNgv.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 44,
+        "defect": "Healthy",
+        "confidence": 96,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 44mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1011",
+    "Date": "2026-09-06T22:14:11.915317",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 47,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1011",
+    "Hash (SHA-256)": "test-hash-0011-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1950997682_1661853079402 - Copy (3) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 47,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1950997682_1661853079402 - Copy (3) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Healthy",
+        "confidence": 47,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1012",
+    "Date": "2026-09-06T22:14:11.919129",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1012",
+    "Hash (SHA-256)": "test-hash-0012-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 64,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2054913114_1661854966231 - Copy - Copy (2).jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 64mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2054913114_1661854966231 - Copy - Copy (2).jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 64,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 64mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1013",
+    "Date": "2026-09-06T22:14:11.919277",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 54,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1013",
+    "Hash (SHA-256)": "test-hash-0013-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 63,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1450855401_1660823478818.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 54,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 63mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1450855401_1660823478818.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 63,
+        "defect": "Healthy",
+        "confidence": 54,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 63mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1014",
+    "Date": "2026-09-06T22:14:11.919304",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 67,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1014",
+    "Hash (SHA-256)": "test-hash-0014-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1514489611_1681295388619_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 67,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1514489611_1681295388619_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Rotten",
+        "confidence": 67,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1015",
+    "Date": "2026-09-06T22:14:11.919325",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1015",
+    "Hash (SHA-256)": "test-hash-0015-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 67,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/2062942911_1660035272743.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 67mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2062942911_1660035272743.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 67,
+        "defect": "Healthy",
+        "confidence": 96,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 67mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1016",
+    "Date": "2026-09-06T22:14:11.919341",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1016",
+    "Hash (SHA-256)": "test-hash-0016-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 69,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2121072084_1661857323631 - Copy (5)-1BumXY.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 69mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2121072084_1661857323631 - Copy (5)-1BumXY.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 69,
+        "defect": "Rotten",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 69mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1017",
+    "Date": "2026-09-06T22:14:11.919359",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 65,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1017",
+    "Hash (SHA-256)": "test-hash-0017-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 51,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/609827583_1660034924714-GuJrQs.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 65,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 51mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/609827583_1660034924714-GuJrQs.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 51,
+        "defect": "Sprouted",
+        "confidence": 65,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 51mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1018",
+    "Date": "2026-09-06T22:14:11.919377",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1018",
+    "Hash (SHA-256)": "test-hash-0018-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1711074162_1661852507523 - Copy (3)-WnxPQb.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1711074162_1661852507523 - Copy (3)-WnxPQb.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Rotten",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1019",
+    "Date": "2026-09-06T22:14:11.919538",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 95,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1019",
+    "Hash (SHA-256)": "test-hash-0019-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1795792737_1681295452065_640x480 - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 95,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 41mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1795792737_1681295452065_640x480 - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Damaged",
+        "confidence": 95,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 41mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1020",
+    "Date": "2026-09-06T22:14:11.919580",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 47,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1020",
+    "Hash (SHA-256)": "test-hash-0020-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 70,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/210289797_1674124814070_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 47,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 70mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/210289797_1674124814070_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 70,
+        "defect": "Sprouted",
+        "confidence": 47,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 70mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1021",
+    "Date": "2026-09-06T22:14:11.919615",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 47,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1021",
+    "Hash (SHA-256)": "test-hash-0021-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1724154768_1660143069588-xZnzYQ.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 47,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 41mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1724154768_1660143069588-xZnzYQ.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Healthy",
+        "confidence": 47,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 41mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1022",
+    "Date": "2026-09-06T22:14:11.919638",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1022",
+    "Hash (SHA-256)": "test-hash-0022-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 42,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1283996981_1666447747042_640x480-AnhzXe.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1283996981_1666447747042_640x480-AnhzXe.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 42,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1023",
+    "Date": "2026-09-06T22:14:11.919657",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1023",
+    "Hash (SHA-256)": "test-hash-0023-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 63,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1821728635_1679997589438_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 63mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1821728635_1679997589438_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 63,
+        "defect": "Damaged",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 63mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1024",
+    "Date": "2026-09-06T22:14:11.919676",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 88,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1024",
+    "Hash (SHA-256)": "test-hash-0024-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 53,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1762039025_1660036797028.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 88,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 53mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1762039025_1660036797028.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 53,
+        "defect": "Healthy",
+        "confidence": 88,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 53mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1025",
+    "Date": "2026-09-06T22:14:11.919694",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1025",
+    "Hash (SHA-256)": "test-hash-0025-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 43,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1644029417_1678093891851_640x480-WadBOv.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 43mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1644029417_1678093891851_640x480-WadBOv.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 43,
+        "defect": "Rotten",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 43mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1026",
+    "Date": "2026-09-06T22:14:11.919713",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1026",
+    "Hash (SHA-256)": "test-hash-0026-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 74,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1921016714_1679481102161_640x480-OXEc95.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1921016714_1679481102161_640x480-OXEc95.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 74,
+        "defect": "Damaged",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1027",
+    "Date": "2026-09-06T22:14:11.919732",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1027",
+    "Hash (SHA-256)": "test-hash-0027-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 51,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1733003582_1659776585627-Ir7tWm.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 51mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1733003582_1659776585627-Ir7tWm.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 51,
+        "defect": "Healthy",
+        "confidence": 93,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 51mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1028",
+    "Date": "2026-09-06T22:14:11.919750",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1028",
+    "Hash (SHA-256)": "test-hash-0028-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 53,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1460236816_1666860752880_640x480 - Copy - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 53mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1460236816_1666860752880_640x480 - Copy - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 53,
+        "defect": "Rotten",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 53mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1029",
+    "Date": "2026-09-06T22:14:11.919773",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1029",
+    "Hash (SHA-256)": "test-hash-0029-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1986590279_1680513865971_640x480 - Copy-LsrVCg.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 57mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1986590279_1680513865971_640x480 - Copy-LsrVCg.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Damaged",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 57mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1030",
+    "Date": "2026-09-06T22:14:11.919792",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1030",
+    "Hash (SHA-256)": "test-hash-0030-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1572982450_1670408093373_640x480-4XI5PG.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1572982450_1670408093373_640x480-4XI5PG.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Healthy",
+        "confidence": 97,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1031",
+    "Date": "2026-09-06T22:14:11.919813",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1031",
+    "Hash (SHA-256)": "test-hash-0031-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 44,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1324183634_1668589138499_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 44mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1324183634_1668589138499_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 44,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 44mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1032",
+    "Date": "2026-09-06T22:14:11.919835",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1032",
+    "Hash (SHA-256)": "test-hash-0032-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 70,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1200872279_1676286736854_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 70mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1200872279_1676286736854_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 70,
+        "defect": "Healthy",
+        "confidence": 93,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 70mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1033",
+    "Date": "2026-09-06T22:14:11.919950",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 51,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1033",
+    "Hash (SHA-256)": "test-hash-0033-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 42,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/818267647_1660142078271.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 51,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/818267647_1660142078271.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 42,
+        "defect": "Damaged",
+        "confidence": 51,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 42mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1034",
+    "Date": "2026-09-06T22:14:11.920014",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1034",
+    "Hash (SHA-256)": "test-hash-0034-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 48,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/214148014_1681374115310_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 48mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/214148014_1681374115310_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 48,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 48mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1035",
+    "Date": "2026-09-06T22:14:11.920052",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1035",
+    "Hash (SHA-256)": "test-hash-0035-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/785505070_1668168541904_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 57mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/785505070_1668168541904_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Healthy",
+        "confidence": 96,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 57mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1036",
+    "Date": "2026-09-06T22:14:11.920075",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1036",
+    "Hash (SHA-256)": "test-hash-0036-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/697129605_1678088620090_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/697129605_1678088620090_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1037",
+    "Date": "2026-09-06T22:14:11.920098",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 46,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1037",
+    "Hash (SHA-256)": "test-hash-0037-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1460236816_1666860752880_640x480 - Copy (2)-nTycCy.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 46,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 57mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1460236816_1666860752880_640x480 - Copy (2)-nTycCy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Healthy",
+        "confidence": 46,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 57mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1038",
+    "Date": "2026-09-06T22:14:11.920123",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1038",
+    "Hash (SHA-256)": "test-hash-0038-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 54,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/912353670_1659800386121.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 54mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/912353670_1659800386121.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 54,
+        "defect": "Rotten",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 54mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1039",
+    "Date": "2026-09-06T22:14:11.920195",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1039",
+    "Hash (SHA-256)": "test-hash-0039-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 73,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/376759273_1678359614018_640x360 - Copie - Copie - Copie-njj3pf.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 73mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/376759273_1678359614018_640x360 - Copie - Copie - Copie-njj3pf.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 73,
+        "defect": "Damaged",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 73mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1040",
+    "Date": "2026-09-06T22:14:11.920233",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1040",
+    "Hash (SHA-256)": "test-hash-0040-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 51,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/291838657_1680163375138_640x480 - Copie - Copie - Copie-sklXZU.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 51mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/291838657_1680163375138_640x480 - Copie - Copie - Copie-sklXZU.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 51,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 51mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1041",
+    "Date": "2026-09-06T22:14:11.920505",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1041",
+    "Hash (SHA-256)": "test-hash-0041-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 54,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1661911245_1674130265805_640x480 - Copy (4).jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 54mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1661911245_1674130265805_640x480 - Copy (4).jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 54,
+        "defect": "Rotten",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 54mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1042",
+    "Date": "2026-09-06T22:14:11.920630",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1042",
+    "Hash (SHA-256)": "test-hash-0042-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1410072199_1668678295326_640x480 - Copy (3) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1410072199_1668678295326_640x480 - Copy (3) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Rotten",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 41mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1043",
+    "Date": "2026-09-06T22:14:11.920672",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1043",
+    "Hash (SHA-256)": "test-hash-0043-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 55,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1137760722_1668163285921_640x480-7lYaxY.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1137760722_1668163285921_640x480-7lYaxY.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 55,
+        "defect": "Damaged",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1044",
+    "Date": "2026-09-06T22:14:11.920701",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1044",
+    "Hash (SHA-256)": "test-hash-0044-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 46,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/627635925_1669105903552_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 46mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/627635925_1669105903552_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 46,
+        "defect": "Damaged",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 46mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1045",
+    "Date": "2026-09-06T22:14:11.920731",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1045",
+    "Hash (SHA-256)": "test-hash-0045-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 48,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1881805436_1659776492401.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 48mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1881805436_1659776492401.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 48,
+        "defect": "Healthy",
+        "confidence": 96,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 48mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1046",
+    "Date": "2026-09-06T22:14:11.920755",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1046",
+    "Hash (SHA-256)": "test-hash-0046-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1730447586_1678097007522_640x360.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 65mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1730447586_1678097007522_640x360.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Healthy",
+        "confidence": 89,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 65mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1047",
+    "Date": "2026-09-06T22:14:11.920787",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 46,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1047",
+    "Hash (SHA-256)": "test-hash-0047-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 42,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/403233584_1679652155507_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 46,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 42mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/403233584_1679652155507_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 42,
+        "defect": "Sprouted",
+        "confidence": 46,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 42mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1048",
+    "Date": "2026-09-06T22:14:11.920810",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1048",
+    "Hash (SHA-256)": "test-hash-0048-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1661911245_1674130265805_640x480 - Copy (5) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1661911245_1674130265805_640x480 - Copy (5) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Rotten",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1049",
+    "Date": "2026-09-06T22:14:11.920835",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1049",
+    "Hash (SHA-256)": "test-hash-0049-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 73,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1539387764_1681293996341_640x480-xqHB4r.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 73mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1539387764_1681293996341_640x480-xqHB4r.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 73,
+        "defect": "Damaged",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 73mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1050",
+    "Date": "2026-09-06T22:14:11.920854",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 88,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1050",
+    "Hash (SHA-256)": "test-hash-0050-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 40,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/505396427_1668770489479_640x480-aeQ8Lm.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 88,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 40mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/505396427_1668770489479_640x480-aeQ8Lm.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 40,
+        "defect": "Damaged",
+        "confidence": 88,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 40mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1051",
+    "Date": "2026-09-06T22:14:11.920880",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1051",
+    "Hash (SHA-256)": "test-hash-0051-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 60,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/316990471_1674644056010_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 60mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/316990471_1674644056010_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 60,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 60mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1052",
+    "Date": "2026-09-06T22:14:11.920907",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1052",
+    "Hash (SHA-256)": "test-hash-0052-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 44,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1950997682_1661853079402 - Copy (2) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 44mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1950997682_1661853079402 - Copy (2) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 44,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 44mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1053",
+    "Date": "2026-09-06T22:14:11.920939",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 46,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1053",
+    "Hash (SHA-256)": "test-hash-0053-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 64,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1886819510_1668185001691_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 46,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 64mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1886819510_1668185001691_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 64,
+        "defect": "Sprouted",
+        "confidence": 46,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 64mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1054",
+    "Date": "2026-09-06T22:14:11.920963",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 55,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1054",
+    "Hash (SHA-256)": "test-hash-0054-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 53,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/416379515_1666165199168_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 55,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 53mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/416379515_1666165199168_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 53,
+        "defect": "Healthy",
+        "confidence": 55,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 53mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1055",
+    "Date": "2026-09-06T22:14:11.920986",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1055",
+    "Hash (SHA-256)": "test-hash-0055-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 39,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/407688704_1679481792448_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 39mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/407688704_1679481792448_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 39,
+        "defect": "Damaged",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 39mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1056",
+    "Date": "2026-09-06T22:14:11.921009",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1056",
+    "Hash (SHA-256)": "test-hash-0056-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 64,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1618485332_1678088671095_640x480-z4vBDk.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 64mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1618485332_1678088671095_640x480-z4vBDk.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 64,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 64mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1057",
+    "Date": "2026-09-06T22:14:11.921038",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1057",
+    "Hash (SHA-256)": "test-hash-0057-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 55,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1481994227_1681294532051_640x480-USzBkY.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1481994227_1681294532051_640x480-USzBkY.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 55,
+        "defect": "Damaged",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1058",
+    "Date": "2026-09-06T22:14:11.921063",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 49,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1058",
+    "Hash (SHA-256)": "test-hash-0058-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 62,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/806004619_1675767303101_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 49,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 62mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/806004619_1675767303101_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 62,
+        "defect": "Rotten",
+        "confidence": 49,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 62mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1059",
+    "Date": "2026-09-06T22:14:11.921077",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 95,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1059",
+    "Hash (SHA-256)": "test-hash-0059-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 50,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1143735238_1668161370053_640x480-vb9AUN.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 95,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1143735238_1668161370053_640x480-vb9AUN.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 50,
+        "defect": "Damaged",
+        "confidence": 95,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1060",
+    "Date": "2026-09-06T22:14:11.921092",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1060",
+    "Hash (SHA-256)": "test-hash-0060-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 60,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2097876910_1661853864261-DM5piC.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 60mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2097876910_1661853864261-DM5piC.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 60,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 60mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1061",
+    "Date": "2026-09-06T22:14:11.921106",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1061",
+    "Hash (SHA-256)": "test-hash-0061-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 52,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1095580979_1671012472816_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 52mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1095580979_1671012472816_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 52,
+        "defect": "Healthy",
+        "confidence": 91,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 52mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1062",
+    "Date": "2026-09-06T22:14:11.921120",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1062",
+    "Hash (SHA-256)": "test-hash-0062-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 63,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/410844877_1679049543946_640x360 - Copie - Copie - Copie-4JkDDH.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 63mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/410844877_1679049543946_640x360 - Copie - Copie - Copie-4JkDDH.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 63,
+        "defect": "Damaged",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 63mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1063",
+    "Date": "2026-09-06T22:14:11.921135",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1063",
+    "Hash (SHA-256)": "test-hash-0063-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 55,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/446889098_1677579142090_640x480 - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/446889098_1677579142090_640x480 - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 55,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1064",
+    "Date": "2026-09-06T22:14:11.921147",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1064",
+    "Hash (SHA-256)": "test-hash-0064-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 63,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1179162238_1668587947261_640x480-QE0oJ1.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 63mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1179162238_1668587947261_640x480-QE0oJ1.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 63,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 63mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1065",
+    "Date": "2026-09-06T22:14:11.921175",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 50,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1065",
+    "Hash (SHA-256)": "test-hash-0065-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 59,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1542939584_1669105744545_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 50,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 59mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1542939584_1669105744545_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 59,
+        "defect": "Healthy",
+        "confidence": 50,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 59mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1066",
+    "Date": "2026-09-06T22:14:11.921212",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1066",
+    "Hash (SHA-256)": "test-hash-0066-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 49,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/2026968857_1660825427580.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 49mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2026968857_1660825427580.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 49,
+        "defect": "Rotten",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 49mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1067",
+    "Date": "2026-09-06T22:14:11.921231",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1067",
+    "Hash (SHA-256)": "test-hash-0067-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 40,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1796754050_1681294730865_640x480-jo73Ec.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 40mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1796754050_1681294730865_640x480-jo73Ec.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 40,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 40mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1068",
+    "Date": "2026-09-06T22:14:11.921242",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1068",
+    "Hash (SHA-256)": "test-hash-0068-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 60,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1686860284_1668765451715_640x480-3XN6sl.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 60mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1686860284_1668765451715_640x480-3XN6sl.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 60,
+        "defect": "Damaged",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 60mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1069",
+    "Date": "2026-09-06T22:14:11.921256",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1069",
+    "Hash (SHA-256)": "test-hash-0069-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1362688029_1680695485479_640x480-x0j4AD.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1362688029_1680695485479_640x480-x0j4AD.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1070",
+    "Date": "2026-09-06T22:14:11.921267",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1070",
+    "Hash (SHA-256)": "test-hash-0070-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 45,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1437368267_1661855384563 - Copy-4VENfg.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 45mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1437368267_1661855384563 - Copy-4VENfg.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 45,
+        "defect": "Rotten",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 45mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1071",
+    "Date": "2026-09-06T22:14:11.921278",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1071",
+    "Hash (SHA-256)": "test-hash-0071-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 50,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1821728635_1679997589438_640x480 - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1821728635_1679997589438_640x480 - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 50,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1072",
+    "Date": "2026-09-06T22:14:11.921290",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1072",
+    "Hash (SHA-256)": "test-hash-0072-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1505801308_1661853418177 - Copy (3) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1505801308_1661853418177 - Copy (3) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 38mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1073",
+    "Date": "2026-09-06T22:14:11.921303",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1073",
+    "Hash (SHA-256)": "test-hash-0073-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 50,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/272815111_1678439401634_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/272815111_1678439401634_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 50,
+        "defect": "Damaged",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1074",
+    "Date": "2026-09-06T22:14:11.921319",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1074",
+    "Hash (SHA-256)": "test-hash-0074-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 59,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1275630974_1681293527243_640x480 - Copy-Yd4v4E.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 59mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1275630974_1681293527243_640x480 - Copy-Yd4v4E.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 59,
+        "defect": "Damaged",
+        "confidence": 89,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 59mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1075",
+    "Date": "2026-09-06T22:14:11.921339",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1075",
+    "Hash (SHA-256)": "test-hash-0075-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2054913114_1661854966231 - Copy - Copy (2)-uxgU0R.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 57mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2054913114_1661854966231 - Copy - Copy (2)-uxgU0R.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Rotten",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 57mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1076",
+    "Date": "2026-09-06T22:14:11.921357",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1076",
+    "Hash (SHA-256)": "test-hash-0076-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 58,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/837246116_1660824890348.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 58mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/837246116_1660824890348.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 58,
+        "defect": "Rotten",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 58mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1077",
+    "Date": "2026-09-06T22:14:11.921374",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1077",
+    "Hash (SHA-256)": "test-hash-0077-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 73,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1444074221_1668677296920_640x480 - Copy (2) - Copy-YOrXMl.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 73mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1444074221_1668677296920_640x480 - Copy (2) - Copy-YOrXMl.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 73,
+        "defect": "Rotten",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 73mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1078",
+    "Date": "2026-09-06T22:14:11.921396",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1078",
+    "Hash (SHA-256)": "test-hash-0078-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 62,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/287888360_1677757535549_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 62mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/287888360_1677757535549_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 62,
+        "defect": "Damaged",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 62mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1079",
+    "Date": "2026-09-06T22:14:11.921414",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1079",
+    "Hash (SHA-256)": "test-hash-0079-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 74,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/2068384323_1668681441683_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2068384323_1668681441683_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 74,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 74mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1080",
+    "Date": "2026-09-06T22:14:11.921430",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1080",
+    "Hash (SHA-256)": "test-hash-0080-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1921016714_1679481102161_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 38mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1921016714_1679481102161_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Damaged",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 38mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1081",
+    "Date": "2026-09-06T22:14:11.921454",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1081",
+    "Hash (SHA-256)": "test-hash-0081-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/768313142_1666775636502_640x480-UxEsLq.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/768313142_1666775636502_640x480-UxEsLq.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Damaged",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1082",
+    "Date": "2026-09-06T22:14:11.921477",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 95,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1082",
+    "Hash (SHA-256)": "test-hash-0082-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 58,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2121072084_1661857323631 - Copy (3) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 95,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 58mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2121072084_1661857323631 - Copy (3) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 58,
+        "defect": "Rotten",
+        "confidence": 95,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 58mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1083",
+    "Date": "2026-09-06T22:14:11.921492",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1083",
+    "Hash (SHA-256)": "test-hash-0083-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 51,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/687602905_1670408743357_640x480-ZJYz4i.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 51mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/687602905_1670408743357_640x480-ZJYz4i.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 51,
+        "defect": "Healthy",
+        "confidence": 90,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 51mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1084",
+    "Date": "2026-09-06T22:14:11.921503",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1084",
+    "Hash (SHA-256)": "test-hash-0084-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 43,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1044456060_1668769369098_640x480-QcDzFS.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 43mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1044456060_1668769369098_640x480-QcDzFS.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 43,
+        "defect": "Damaged",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 43mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1085",
+    "Date": "2026-09-06T22:14:11.921516",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1085",
+    "Hash (SHA-256)": "test-hash-0085-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 59,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/961413287_1678096949430_640x360-L35rYt.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 59mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/961413287_1678096949430_640x360-L35rYt.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 59,
+        "defect": "Healthy",
+        "confidence": 91,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 59mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1086",
+    "Date": "2026-09-06T22:14:11.921527",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1086",
+    "Hash (SHA-256)": "test-hash-0086-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2121072084_1661857323631 - Copy (4) - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 57mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2121072084_1661857323631 - Copy (4) - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 57mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1087",
+    "Date": "2026-09-06T22:14:11.921538",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1087",
+    "Hash (SHA-256)": "test-hash-0087-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 47,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/591530406_1669023932277_640x480-jCiuGM.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 47mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/591530406_1669023932277_640x480-jCiuGM.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 47,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 47mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1088",
+    "Date": "2026-09-06T22:14:11.921553",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 89,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1088",
+    "Hash (SHA-256)": "test-hash-0088-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 68,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1976824759_1668185903819_640x480-LIH4bQ.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 89,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 68mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1976824759_1668185903819_640x480-LIH4bQ.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 68,
+        "defect": "Healthy",
+        "confidence": 89,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 68mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1089",
+    "Date": "2026-09-06T22:14:11.921567",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 97,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1089",
+    "Hash (SHA-256)": "test-hash-0089-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 67,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/2145528904_1681293971424_640x480 - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 97,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 67mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2145528904_1681293971424_640x480 - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 67,
+        "defect": "Damaged",
+        "confidence": 97,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 67mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1090",
+    "Date": "2026-09-06T22:14:11.921578",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1090",
+    "Hash (SHA-256)": "test-hash-0090-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 50,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1555128090_1680697066648_640x480 - Copy-mrlNCI.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1555128090_1680697066648_640x480 - Copy-mrlNCI.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 50,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 50mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1091",
+    "Date": "2026-09-06T22:14:11.921592",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1091",
+    "Hash (SHA-256)": "test-hash-0091-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 69,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/208813082_1678788298987_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 69mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/208813082_1678788298987_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 69,
+        "defect": "Damaged",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 69mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1092",
+    "Date": "2026-09-06T22:14:11.921605",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 66,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1092",
+    "Hash (SHA-256)": "test-hash-0092-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 38,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/2026719944_1677917840948_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 66,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A.",
+      "grade": "Grade A",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/2026719944_1677917840948_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 38,
+        "defect": "Healthy",
+        "confidence": 66,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 38mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1093",
+    "Date": "2026-09-06T22:14:11.921618",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1093",
+    "Hash (SHA-256)": "test-hash-0093-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/2097876910_1661853864261 - Copy - Copy-M22ehw.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 65mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2097876910_1661853864261 - Copy - Copy-M22ehw.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 65mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1094",
+    "Date": "2026-09-06T22:14:11.921630",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1094",
+    "Hash (SHA-256)": "test-hash-0094-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 67,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1125169104_1660146114772-RxJKXu.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 67mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1125169104_1660146114772-RxJKXu.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 67,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 67mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1095",
+    "Date": "2026-09-06T22:14:11.921644",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 95,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1095",
+    "Hash (SHA-256)": "test-hash-0095-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 45,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1407677094_1666174152035_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 95,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 45mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1407677094_1666174152035_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 45,
+        "defect": "Damaged",
+        "confidence": 95,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 45mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1096",
+    "Date": "2026-09-06T22:14:11.921656",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 52,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1096",
+    "Hash (SHA-256)": "test-hash-0096-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 71,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1297125630_1681294610711_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 52,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 71mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1297125630_1681294610711_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 71,
+        "defect": "Sprouted",
+        "confidence": 52,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 71mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1097",
+    "Date": "2026-09-06T22:14:11.921670",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1097",
+    "Hash (SHA-256)": "test-hash-0097-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 66,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/289589853_1668421746428_640x480-N1m16j.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 66mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/289589853_1668421746428_640x480-N1m16j.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 66,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 66mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1098",
+    "Date": "2026-09-06T22:14:11.921681",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1098",
+    "Hash (SHA-256)": "test-hash-0098-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1685508932_1678527518848_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1685508932_1678527518848_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1099",
+    "Date": "2026-09-06T22:14:11.921698",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 57,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1099",
+    "Hash (SHA-256)": "test-hash-0099-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 66,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/269645231_1680771778572_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 57,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 66mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/269645231_1680771778572_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 66,
+        "defect": "Sprouted",
+        "confidence": 57,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 66mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1100",
+    "Date": "2026-09-06T22:14:11.921740",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 91,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1100",
+    "Hash (SHA-256)": "test-hash-0100-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 66,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/2057136098_1678087551099_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 91,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 66mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2057136098_1678087551099_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 66,
+        "defect": "Rotten",
+        "confidence": 91,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 66mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1101",
+    "Date": "2026-09-06T22:14:11.921772",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1101",
+    "Hash (SHA-256)": "test-hash-0101-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 55,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1611729229_1679998443470_640x480-q4Lky6.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1611729229_1679998443470_640x480-q4Lky6.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 55,
+        "defect": "Damaged",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 55mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1102",
+    "Date": "2026-09-06T22:14:11.921787",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1102",
+    "Hash (SHA-256)": "test-hash-0102-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 69,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/1725581614_1661948968235-xsgaRP.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 69mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1725581614_1661948968235-xsgaRP.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 69,
+        "defect": "Healthy",
+        "confidence": 92,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 69mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1103",
+    "Date": "2026-09-06T22:14:11.921798",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1103",
+    "Hash (SHA-256)": "test-hash-0103-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 66,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1728450885_1680695097598_640x480 - Copy.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 66mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1728450885_1680695097598_640x480 - Copy.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 66,
+        "defect": "Damaged",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 66mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1104",
+    "Date": "2026-09-06T22:14:11.921814",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1104",
+    "Hash (SHA-256)": "test-hash-0104-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 53,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1743037230_1661852669472 - Copy (3).jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 53mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1743037230_1661852669472 - Copy (3).jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 53,
+        "defect": "Rotten",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 53mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1105",
+    "Date": "2026-09-06T22:14:11.921829",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1105",
+    "Hash (SHA-256)": "test-hash-0105-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/699193158_1669715110394_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/699193158_1669715110394_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Healthy",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 72mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1106",
+    "Date": "2026-09-06T22:14:11.921843",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1106",
+    "Hash (SHA-256)": "test-hash-0106-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 52,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/426175404_1678439317528_640x480 - Copie - Copie - Copie-nhb0F9.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 52mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/426175404_1678439317528_640x480 - Copie - Copie - Copie-nhb0F9.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 52,
+        "defect": "Damaged",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 52mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1107",
+    "Date": "2026-09-06T22:14:11.921865",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1107",
+    "Hash (SHA-256)": "test-hash-0107-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 51,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/401239687_1680627163675_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 51mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/401239687_1680627163675_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 51,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 51mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1108",
+    "Date": "2026-09-06T22:14:11.921885",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1108",
+    "Hash (SHA-256)": "test-hash-0108-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 59,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/277434077_1679046835500_640x360 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 59mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/277434077_1679046835500_640x360 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 59,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 59mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1109",
+    "Date": "2026-09-06T22:14:11.921901",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 72,
+    "URS %": 28,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1109",
+    "Hash (SHA-256)": "test-hash-0109-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Healthy",
+      "grade": "Grade A",
+      "size_mm": 41,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Healthy_leaf/2140631822_1673956435546_640x480-NuaSFF.jpg"
+    },
+    "Prediction": {
+      "defect": "Healthy",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Healthy — uniform at 41mm. Grade A.",
+      "grade": "Grade A",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/2140631822_1673956435546_640x480-NuaSFF.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 41,
+        "defect": "Healthy",
+        "confidence": 94,
+        "grade": "Grade A",
+        "reasoning": "OnionSetu.ai: Healthy — uniform at 41mm. Grade A."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1110",
+    "Date": "2026-09-06T22:14:11.921915",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 64,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1110",
+    "Hash (SHA-256)": "test-hash-0110-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 62,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/215684368_1678783669555_640x480 - Copie - Copie - Copie.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 64,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 62mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/215684368_1678783669555_640x480 - Copie - Copie - Copie.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 62,
+        "defect": "Sprouted",
+        "confidence": 64,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 62mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1111",
+    "Date": "2026-09-06T22:14:11.921932",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 54,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1111",
+    "Hash (SHA-256)": "test-hash-0111-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 39,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1511030248_1668184642226_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Sprouted",
+      "confidence": 54,
+      "reasoning": "OnionSetu.ai: Sprouted — visible defect at 39mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": false
+    },
+    "Uploaded images": [
+      "test_extract/1511030248_1668184642226_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 39,
+        "defect": "Sprouted",
+        "confidence": 54,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Sprouted — visible defect at 39mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1112",
+    "Date": "2026-09-06T22:14:11.921946",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 93,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1112",
+    "Hash (SHA-256)": "test-hash-0112-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 68,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1616693744_1660142804025.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 93,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 68mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1616693744_1660142804025.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 68,
+        "defect": "Rotten",
+        "confidence": 93,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 68mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1113",
+    "Date": "2026-09-06T22:14:11.921957",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1113",
+    "Hash (SHA-256)": "test-hash-0113-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 57,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/alternaria_d/461367594_1675762592457_640x480 - Copie-oQVeWx.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 57mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/461367594_1675762592457_640x480 - Copie-oQVeWx.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 57,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 57mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1114",
+    "Date": "2026-09-06T22:14:11.921971",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 96,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1114",
+    "Hash (SHA-256)": "test-hash-0114-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/Bulb_blight_d/1950997682_1661853079402 - Copy (2)-rM2O5N.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 96,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1950997682_1661853079402 - Copy (2)-rM2O5N.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Rotten",
+        "confidence": 96,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 72mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1115",
+    "Date": "2026-09-06T22:14:11.921982",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 92,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1115",
+    "Hash (SHA-256)": "test-hash-0115-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 52,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1248144975_1668689241025_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 92,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 52mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1248144975_1668689241025_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 52,
+        "defect": "Damaged",
+        "confidence": 92,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 52mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1116",
+    "Date": "2026-09-06T22:14:11.921995",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1116",
+    "Hash (SHA-256)": "test-hash-0116-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 65,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/1445013624_1668165401968_640x480.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1445013624_1668165401968_640x480.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 65,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 65mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1117",
+    "Date": "2026-09-06T22:14:11.922011",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1117",
+    "Hash (SHA-256)": "test-hash-0117-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Rotten",
+      "grade": "URS",
+      "size_mm": 59,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/fusarium_d/1027871422_1672155143122_640x480-n0WL3Q.jpg"
+    },
+    "Prediction": {
+      "defect": "Rotten",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Rotten — visible defect at 59mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1027871422_1672155143122_640x480-n0WL3Q.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 59,
+        "defect": "Rotten",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Rotten — visible defect at 59mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1118",
+    "Date": "2026-09-06T22:14:11.922025",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 90,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1118",
+    "Hash (SHA-256)": "test-hash-0118-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 48,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/virosis_d/1970609161_1681294044825_640x480-fmFszH.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 90,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 48mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/1970609161_1681294044825_640x480-fmFszH.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 48,
+        "defect": "Damaged",
+        "confidence": 90,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 48mm. URS per v2026.1."
+      }
+    ]
+  },
+  {
+    "Report ID": "OG-TEST-1119",
+    "Date": "2026-09-06T22:14:11.922045",
+    "Location": "Lasalgaon APMC — Nashik, MH (TOM2024 test)",
+    "Policy version": "v2026.1",
+    "Grade A %": 68,
+    "URS %": 32,
+    "Confidence": 94,
+    "Farmer/grader acknowledgement": {
+      "farmer": false,
+      "grader": false,
+      "note": "Pending — farmer/grader review required"
+    },
+    "Dispute status": "No dispute",
+    "Sample size": 1,
+    "Lot ID": "LOT-TEST-1119",
+    "Hash (SHA-256)": "test-hash-0119-a3f9c1e7",
+    "Ground truth": {
+      "defect": "Damaged",
+      "grade": "URS",
+      "size_mm": 72,
+      "source_file": "TOM2024/CATEGORY B/CATB-English/onion with data augmentation/test/caterpillars_p/838443487_1668170567756_640x480-mqWMXv.jpg"
+    },
+    "Prediction": {
+      "defect": "Damaged",
+      "confidence": 94,
+      "reasoning": "OnionSetu.ai: Damaged — visible defect at 72mm. URS per v2026.1.",
+      "grade": "URS",
+      "correct": true
+    },
+    "Uploaded images": [
+      "test_extract/838443487_1668170567756_640x480-mqWMXv.jpg"
+    ],
+    "Per-Onion Results": [
+      {
+        "id": "O1",
+        "sizeMm": 72,
+        "defect": "Damaged",
+        "confidence": 94,
+        "grade": "URS",
+        "reasoning": "OnionSetu.ai: Damaged — visible defect at 72mm. URS per v2026.1."
+      }
+    ]
+  }
+]
