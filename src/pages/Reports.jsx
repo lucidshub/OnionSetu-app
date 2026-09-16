@@ -57,6 +57,9 @@ export function ReportDetail(){
   if(!a) return <div className="card card-pad">{t("verifyFail")}. <Link to="/reports">{t("browseReports")}</Link></div>;
   const hasImages = Array.isArray(a.images) && a.images.length;
   const hasOnions = Array.isArray(a.onions) && a.onions.length;
+  const isBatch = a.kind === "batch" || a.sampleSize >= 100;
+  const viewCount = isBatch ? Math.max(hasImages ? a.images.length : 0, 10) : 3;
+  const viewIndexes = hasImages ? [...a.images].sort((x,y)=> (x.view_index ?? 0)-(y.view_index ?? 0)).map(im=> im.view_index) : Array.from({length: viewCount}, (_,i)=> i);
   const verifyUrl = `https://onion-setu.vercel.app/verify/${a.id}`;
   return (
     <div style={{display:"grid", gap:14}}>
@@ -104,20 +107,31 @@ export function ReportDetail(){
           </div>
         </div>
 
+        {/* ——— BATCH AI EVIDENCE — only for batch grading (Roboflow + Qwen, policy v0.2) ——— */}
+        {a.batch && (
+          <div style={{background:"#FBF6F0", border:"1px solid #EDE3DC", borderRadius:10, padding:12, marginTop:14, display:"grid", gap:8, fontSize:12}}>
+            <div style={{fontWeight:700, fontSize:13}}>Batch AI evidence — {a.batch.assessed_onions} onions, {a.batch.urs_onions} URS ({a.batch.urs_percent}%) → Grade {a.batch.grade}</div>
+            {a.batch.roboflow && <div style={{color:"#6B5A54"}}>Roboflow <span className="mono" style={{fontSize:11}}>{a.batch.roboflow.model}</span> per-view: [{a.batch.roboflow.detection_count_by_view?.join(", ")}] (evidence only). Avg conf: {a.batch.roboflow.average_detection_confidence}.</div>}
+            {a.batch.qwen && <div style={{color:"#6B5A54"}}>Qwen <span className="mono" style={{fontSize:11}}>{a.batch.qwen.model}</span> · confidence {Math.round((a.batch.qwen.confidence ?? 0)*100)}%{a.batch.qwen.issues?.length ? ` · issues: ${a.batch.qwen.issues.map(i=>`${i.issue}×${i.count}`).join(", ")}` : ""}.</div>}
+            {a.batch.review_reasons?.length > 0 && <div><span className="badge badge-warning">Review: {a.batch.review_reasons.join(", ")}</span></div>}
+          </div>
+        )}
+
         {/* ——— UPLOADED IMAGES — part of final report ——— */}
         <div style={{marginTop:14}}>
           <div style={{fontWeight:700, fontSize:13, display:"flex", alignItems:"center", gap:8}}>
             {t("uploadedImages")} — {t("finalReport")}
             <span className="badge" style={{fontSize:10}}>{hasImages ? `${a.images.length} captured views` : "Demo views"}</span>
             <span className="badge badge-maroon" style={{fontSize:10}}>{t("storedIn")}</span>
+            {isBatch && <span className="badge" style={{fontSize:10}}>Batch: {viewIndexes.length} views</span>}
           </div>
-          <div style={{fontSize:11, color:"#6B5A54", marginTop:2}}>These are the exact 3 views captured (with 25mm reference). They are stored in <span className="mono" style={{fontSize:11}}>assessment-images</span> bucket: <span className="mono" style={{fontSize:10}}>{a.id}/view_0..2.jpg</span> — referenced by <span className="mono" style={{fontSize:10}}>assessment_images</span> table.</div>
+          <div style={{fontSize:11, color:"#6B5A54", marginTop:2}}>These are the exact {isBatch ? "10–15 batch" : "3"} views captured{isBatch ? "" : " (with 25mm reference)"}. They are stored in <span className="mono" style={{fontSize:11}}>assessment-images</span> bucket: <span className="mono" style={{fontSize:10}}>{a.id}/view_0..{isBatch ? "14" : "2"}.jpg</span> — referenced by <span className="mono" style={{fontSize:10}}>assessment_images</span> table.</div>
           <div className="capture-grid" style={{display:"grid", gap:10, marginTop:10}}>
-            {[0,1,2].map(i=>{
+            {viewIndexes.slice(0,15).map(i=>{
               const stored = hasImages ? a.images.find(im=> im.view_index===i) : null;
               const demoSrc = "https://images.unsplash.com/photo-1508747703725-719777637510?w=600&h=400&fit=crop";
               const src = stored?.public_url || demoSrc;
-              const label = `View ${i+1} of 3${i===0 ? " · 25mm ref" : ""}`;
+              const label = isBatch ? `View ${i+1}` : `View ${i+1} of 3${i===0 ? " · 25mm ref" : ""}`;
               return (
                 <div key={i} style={{border:"1px solid #EDE3DC", borderRadius:10, overflow:"hidden", background:"white"}}>
                   <img src={src} onError={(e)=>{ if(e.currentTarget.src !== demoSrc) e.currentTarget.src = demoSrc; }} alt={`Report ${a.id} uploaded image ${label} captured at ${a.location} on ${new Date(a.date).toLocaleDateString()}`} width="600" height="400" loading="lazy" style={{width:"100%", height:140, objectFit:"cover"}} />

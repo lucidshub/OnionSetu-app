@@ -82,11 +82,11 @@ create table if not exists public.assessment_onions (
 );
 create index if not exists idx_onions_assessment on public.assessment_onions(assessment_id);
 
--- Images — storage_path points to Storage bucket
+-- Images — storage_path points to Storage bucket (0-14 supports 3-view single + 10-15 view batch)
 create table if not exists public.assessment_images (
   id uuid primary key default uuid_generate_v4(),
   assessment_id text not null references public.assessments(id) on delete cascade,
-  view_index int not null check (view_index between 0 and 2),
+  view_index int not null check (view_index between 0 and 14),
   storage_path text not null,
   public_url text,
   uploaded_at timestamptz default now(),
@@ -198,19 +198,25 @@ create policy "disputes_all" on public.disputes for all to authenticated using (
 drop policy if exists "audit_all" on public.audit_logs;
 create policy "audit_all" on public.audit_logs for all to authenticated using (true) with check (true);
 
--- Storage buckets
-insert into storage.buckets (id, name, public) values ('assessment-images','assessment-images', false) on conflict (id) do nothing;
-insert into storage.buckets (id, name, public) values ('reports','reports', false) on conflict (id) do nothing;
+-- Storage buckets (public so report images render via public URL; RLS still gates DB rows)
+insert into storage.buckets (id, name, public) values ('assessment-images','assessment-images', true) on conflict (id) do update set public = true;
+insert into storage.buckets (id, name, public) values ('reports','reports', true) on conflict (id) do update set public = true;
 
--- Storage policies (authenticated can upload/read own)
+-- Storage policies (authenticated can upload/read own; upsert needs update)
 drop policy if exists "assessment-images upload" on storage.objects;
 create policy "assessment-images upload" on storage.objects for insert to authenticated with check (bucket_id='assessment-images');
 drop policy if exists "assessment-images read" on storage.objects;
 create policy "assessment-images read" on storage.objects for select to authenticated using (bucket_id='assessment-images');
+drop policy if exists "assessment-images update" on storage.objects;
+create policy "assessment-images update" on storage.objects for update to authenticated using (bucket_id='assessment-images') with check (bucket_id='assessment-images');
+drop policy if exists "assessment-images public read" on storage.objects;
+create policy "assessment-images public read" on storage.objects for select to anon using (bucket_id='assessment-images');
 drop policy if exists "reports upload" on storage.objects;
 create policy "reports upload" on storage.objects for insert to authenticated with check (bucket_id='reports');
 drop policy if exists "reports read" on storage.objects;
 create policy "reports read" on storage.objects for select to authenticated using (bucket_id='reports');
+drop policy if exists "reports public read" on storage.objects;
+create policy "reports public read" on storage.objects for select to anon using (bucket_id='reports');
 
 -- Seed policies
 insert into public.policies (id, version, label, size_min, size_max, tolerances, description, effective_from, is_active)

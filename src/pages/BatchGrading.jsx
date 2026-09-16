@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useSeo, Breadcrumbs } from "../lib/seo";
+import { useStore } from "../lib/store";
 
 const MIN_VIEWS = 10;
 const MAX_VIEWS = 15;
@@ -15,9 +17,13 @@ function fileToDataUrl(file){
 
 export default function BatchGrading(){
   useSeo({ title:"Batch Grading", description:"Grade one onion batch (100-200 onions) from 10-15 multi-view photos with Roboflow detection and Qwen assessment.", canonical:"/batch" });
+  const { addBatchAssessment } = useStore();
+  const navigate = useNavigate();
   const [assessed, setAssessed] = useState(150);
   const [files, setFiles] = useState([]);
   const [busy, setBusy] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [savedId, setSavedId] = useState(null);
   const [err, setErr] = useState("");
   const [result, setResult] = useState(null);
   const inputRef = useRef(null);
@@ -31,7 +37,7 @@ export default function BatchGrading(){
   function removeAt(i){ setFiles(prev=> prev.filter((_,x)=> x!==i)); }
 
   async function submit(){
-    setErr(""); setResult(null);
+    setErr(""); setResult(null); setSavedId(null);
     const n = Number(assessed);
     if(!Number.isInteger(n) || n < 100 || n > 200){ setErr("Batch size must be a whole number between 100 and 200."); return; }
     if(files.length < MIN_VIEWS){ setErr(`Add at least ${MIN_VIEWS} views of the same batch (you have ${files.length}).`); return; }
@@ -120,6 +126,26 @@ export default function BatchGrading(){
               ? <span className="badge badge-warning">Human review required{r.review_reasons?.length ? `: ${r.review_reasons.join(", ")}` : ""}</span>
               : <span className="badge badge-success">Review Required: No</span>}
           </div>
+          {r.grading && !savedId && (
+            <button className="btn btn-primary" style={{minHeight:44}} disabled={saving} onClick={async ()=>{
+              setSaving(true);
+              try{
+                const entry = await addBatchAssessment({ assessed_onions: r.assessed_onions ?? assessed, batchResult: r, files });
+                setSavedId(entry.id);
+              }catch(e){
+                setErr(`Save failed: ${String(e?.message || e)}`);
+              }finally{
+                setSaving(false);
+              }
+            }}>{saving ? "Saving…" : "Save to assessments / reports →"}</button>
+          )}
+          {savedId && (
+            <div style={{display:"flex", gap:8, flexWrap:"wrap"}}>
+              <span className="badge badge-success">Saved ✓</span>
+              <button className="btn btn-secondary" style={{fontSize:13}} onClick={()=> navigate(`/reports/${savedId}`)}>Open report →</button>
+              <button className="btn btn-ghost" style={{fontSize:13}} onClick={()=> navigate("/reports")}>All reports</button>
+            </div>
+          )}
         </div>
       )}
     </div>

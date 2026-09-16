@@ -66,10 +66,12 @@ export function StoreProvider({ children }){
       const mapped = data.map(row=>({
         id: row.id, lotId: row.lot_id, farmer: row.farmer_name, center: row.center, location: row.location,
         assessor: row.assessor_name, policyVersion: row.policy_version, modelVersion: row.model_version,
-        sampleSize: row.sample_size, gradeA: row.grade_a, urs: row.urs, status: row.status, sync:"Synced",
+        sampleSize: row.sample_size, gradeA: row.grade_a, gradeB: row.grade_b ?? 0, gradeC: row.grade_c ?? 0,
+        gradeReject: row.grade_reject ?? 0, urs: row.urs, status: row.status, sync:"Synced",
         confidence: row.confidence, humanReviews: row.human_reviews, hash: row.hash,
         acknowledged:{ farmer: row.farmer_ack, grader: row.grader_ack },
         date: row.created_at, updatedAt: row.updated_at,
+        kind: (row.sample_size >= 100 && !row.assessment_onions?.length) ? "batch" : "single",
         onions: (row.assessment_onions||[]).map(o=>({ id:o.onion_id, sizeMm: Number(o.size_mm), defect:o.defect, confidence:o.confidence, grade:o.grade })),
         images: row.assessment_images||[],
         _user_id: row.user_id,
@@ -115,7 +117,8 @@ export function StoreProvider({ children }){
       id, lotId, farmer: data.farmer, center: data.center, location: data.location,
       date: new Date().toISOString(), assessor: data.assessor,
       policyVersion: activePolicy.version, modelVersion:"Prototype Demo Inference",
-      sampleSize: data.onions?.length || grading.total, gradeA: grading.gradeA, urs: grading.urs,
+      sampleSize: data.onions?.length || grading.total, gradeA: grading.gradeA, gradeB: grading.gradeB, gradeC: grading.gradeC, gradeReject: grading.gradeReject, urs: grading.urs,
+      kind: "single",
       status: data.status || "Completed", sync: offline ? "Offline" : "Synced",
       humanReviews: data.humanReviews ?? 0,
       confidence: data.confidence ?? Math.round((data.onions||[]).reduce((a,b)=>a+b.confidence,0)/Math.max(1,(data.onions||[]).length)),
@@ -139,7 +142,8 @@ export function StoreProvider({ children }){
           const { error: insErr } = await supabase.from("assessments").insert({
             id, user_id: uid, lot_id: lotId, farmer_name: entry.farmer, center: entry.center, location: entry.location,
             assessor_name: entry.assessor, policy_version: entry.policyVersion, model_version: "Prototype Demo Inference",
-            sample_size: entry.sampleSize, grade_a: entry.gradeA, urs: entry.urs, status: entry.status, sync_status:"Synced",
+            sample_size: entry.sampleSize, grade_a: entry.gradeA, grade_b: entry.gradeB ?? 0, grade_c: entry.gradeC ?? 0,
+            grade_reject: entry.gradeReject ?? 0, urs: entry.urs, status: entry.status, sync_status:"Synced",
             confidence: entry.confidence, human_reviews: entry.humanReviews, hash: entry.hash,
             farmer_ack:false, grader_ack:false
           });
@@ -185,6 +189,94 @@ export function StoreProvider({ children }){
           }
         }
       }catch(e){ console.warn("Supabase persist error", e); }
+    }
+    return entry;
+  }
+
+  // Batch grading result -> assessment entry so it shows in history / reports.
+  // Maps single-letter batch grade (A/B/C/Reject, policy v0.2) to grade % distribution
+  // and persists core fields to Supabase (full AI payload goes to audit_logs.details).
+  async function addBatchAssessment({ assessed_onions, batchResult, files = [], lot = {} }){
+    const g = batchResult?.grading;
+    if(!g) throw new Error("No grading in batch result — nothing to save.");
+    const letter = g.grade;
+    const dist = {
+      gradeA: letter==="A" ? 100 : 0,
+      gradeB: letter==="B" ? 100 : 0,
+      gradeC: letter==="C" ? 100 : 0,
+      gradeReject: letter==="Reject" ? 100 : 0,
+    };
+    const id = generateId();
+    const lotId = lot.lotId || generateLotId();
+    const ursOnions = batchResult.qwen?.urs_onions ?? 0;
+    const entry = {
+      id, lotId,
+      farmer: lot.farmer || "Batch lot", center: lot.center || "Lasalgaon APMC — NAFED", location: lot.location || "Nashik, MH",
+      date: new Date().toISOString(), assessor: lot.assessor || "Batch grading (Roboflow + Qwen)",
+      policyVersion: g.policy_version || "v0.2",
+      modelVersion: [batchResult.roboflow?.model, batchResult.qwen?.model].filter(Boolean).join(" + ") || "Roboflow + Qwen",
+      sampleSize: assessed_onions,
+      ...dist,
+      urs: Math.round(g.urs_percent ?? 0),
+      status: batchResult.review_required ? "Human Review" : "Completed",
+      sync: offline ? "Offline" : "Synced",
+      humanReviews: 0,
+      confidence: batchResult.qwen ? Math.round(batchResult.qwen.confidence * 100) : 0,
+      onions: [],
+      hash: `urs:${ursOnions}/${assessed_onions} grade:${letter} policy:${g.policy_version || "v0.2"}`,
+      acknowledged: { farmer:false, grader:false },
+      kind: "batch",
+      batch: {
+        assessed_onions, urs_onions: ursOnions, urs_percent: g.urs_percent, grade: letter,
+        roboflow: batchResult.roboflow || null,
+        qwen: batchResult.qwen || null,
+        review_required: !!batchResult.review_required,
+        review_reasons: batchResult.review_reasons || [],
+      },
+      images: [],
+    };
+    setAssessments(prev=> [entry, ...prev]);
+    if(offline) setPendingCount(c=>c+1);
+
+    if(!offline && isSupabaseConfigured && supabase){
+      try{
+        const { data:{ session } } = await supabase.auth.getSession();
+        const uid = session?.user?.id;
+        if(uid && isUuid(uid)){
+          const { error: insErr } = await supabase.from("assessments").insert({
+            id, user_id: uid, lot_id: lotId, farmer_name: entry.farmer, center: entry.center, location: entry.location,
+            assessor_name: entry.assessor, policy_version: entry.policyVersion, model_version: entry.modelVersion,
+            sample_size: entry.sampleSize, grade_a: entry.gradeA, grade_b: entry.gradeB ?? 0,
+            grade_c: entry.gradeC ?? 0, grade_reject: entry.gradeReject ?? 0, urs: entry.urs,
+            status: entry.status, sync_status: "Synced",
+            confidence: entry.confidence, human_reviews: 0, hash: entry.hash,
+            farmer_ack: false, grader_ack: false,
+          });
+          if(!insErr){
+            const uploaded = [];
+            for(let i=0;i<files.slice(0,15).length;i++){
+              const f = files[i];
+              if(!(f instanceof File)) continue;
+              const path = `${uid}/${id}/view_${i}.jpg`;
+              const { error: upErr } = await supabase.storage.from("assessment-images").upload(path, f, { upsert:true });
+              if(!upErr){
+                const { data: urlData } = supabase.storage.from("assessment-images").getPublicUrl(path);
+                await supabase.from("assessment_images").insert({ assessment_id:id, view_index:i, storage_path:path, public_url:urlData.publicUrl });
+                uploaded.push({ view_index:i, storage_path:path, public_url:urlData.publicUrl });
+              }
+            }
+            if(uploaded.length){
+              setAssessments(prev=> prev.map(a=> a.id===id ? { ...a, images: uploaded } : a));
+            }
+            await supabase.from("audit_logs").insert({ assessment_id:id, action:"batch_create", actor_id:uid, actor_role: session.user?.user_metadata?.role || "grader", details:{ batch: entry.batch, views: files.length } });
+            setAssessments(prev=> prev.map(a=> a.id===id ? { ...a, sync:"Synced" } : a));
+          } else {
+            console.warn("Supabase batch insert failed, keeping local", insErr);
+            setAssessments(prev=> prev.map(a=> a.id===id ? { ...a, sync:"Offline" } : a));
+            setPendingCount(c=>c+1);
+          }
+        }
+      }catch(e){ console.warn("Supabase batch persist error", e); }
     }
     return entry;
   }
@@ -271,7 +363,7 @@ export function StoreProvider({ children }){
   return (
     <StoreContext.Provider value={{
       assessments, policies, activePolicy,
-      setPolicy, addAssessment, updateAssessment,
+      setPolicy, addAssessment, addBatchAssessment, updateAssessment,
       offline, setOffline, pendingCount, setPendingCount, syncAll, loading, fetchAssessments
     }}>
       {children}
