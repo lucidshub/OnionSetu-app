@@ -3,7 +3,10 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
+  base: './',
   build: {
+    outDir: 'dist',
+    emptyOutDir: true,
     sourcemap: false,
     cssCodeSplit: true,
     chunkSizeWarningLimit: 600,

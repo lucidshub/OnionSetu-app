@@ -404,3 +404,27 @@ select.select, input.input{ font-family:inherit; }
   .topbar-lang .select{ max-width:92px; }
   .topbar-right .btn-primary{ padding:8px 10px; }
 }
+
+/* ---- Capacitor native shell: safe-area, overscroll, tap ---- */
+:root{
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+html, body{
+  overscroll-behavior-y: none;
+}
+body{
+  padding-top: var(--sat);
+  padding-left: var(--sal);
+  padding-right: var(--sar);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+#root{
+  min-height: calc(100dvh - var(--sat) - var(--sab));
+  padding-bottom: var(--sab);
+}
+input, textarea, select{ font-size: 16px; } /* stops iOS zoom-on-focus */
+img{ -webkit-user-drag: none; }

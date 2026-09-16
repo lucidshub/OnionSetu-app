@@ -1,0 +1,12 @@
+{
+  "appId": "com.onionsetu.app",
+  "appName": "OnionSetu",
+  "webDir": "dist",
+  "backgroundColor": "#FDFBF9",
+  "android": { "allowMixedContent": false },
+  "ios": { "contentInset": "always", "limitsNavigationsToAppBoundDomains": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1500, "backgroundColor": "#7A263A", "showSpinner": false },
+    "StatusBar": { "style": "light", "backgroundColor": "#7A263A" }
+  }
+}

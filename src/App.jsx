@@ -1,5 +1,7 @@
 import { useState, useEffect, lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { Capacitor } from "@capacitor/core";
+import { initNativeShell } from "./lib/native";
 import { StoreProvider } from "./lib/store";
 import { AuthProvider, useAuth } from "./lib/auth";
 import { I18nProvider, useI18n } from "./lib/i18n";
@@ -100,13 +102,15 @@ function AppRoutes(){
 }
 
 export default function App(){
+  const Router = Capacitor.isNativePlatform() ? HashRouter : BrowserRouter;
+  useEffect(()=>{ initNativeShell(); },[]);
   return (
     <I18nProvider>
     <StoreProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <Router>
           <AppRoutes />
-        </BrowserRouter>
+        </Router>
       </AuthProvider>
     </StoreProvider>
     </I18nProvider>
