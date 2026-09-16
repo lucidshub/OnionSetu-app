@@ -47,3 +47,6 @@ Native uses HTTPS, so no mixed-content issues.
 - `flutter` / `java` / `xcodebuild` / Android SDK all missing → no local
   `gradlew assembleDebug` or `xcodebuild archive` here.
 - Open `android/` in Android Studio or `ios/App/App.xcworkspace` in Xcode to produce signed binaries.
+
+## In-app updates (Android)
+Fixes ship without manual reinstalls: tag a release (`git tag vX.Y.Z && git push origin vX.Y.Z`), CI stamps the version and attaches the APK. Phones show an update banner that downloads + opens the installer in-app. See `src/lib/updater.js` + `AppUpdatePlugin.java`.
