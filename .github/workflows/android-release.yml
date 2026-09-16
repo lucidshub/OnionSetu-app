@@ -1,0 +1,59 @@
+name: Android Release (AAB + APK)
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build web + sync Capacitor
+        run: npm run build:app
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Decode keystore
+        run: echo "${{ secrets.ANDROID_KEYSTORE_B64 }}" | base64 -d > android/app/onionsetu-release.jks
+
+      - name: Build AAB + APK
+        working-directory: android
+        run: |
+          ./gradlew bundleRelease assembleRelease \
+            -Pandroid.injected.signing.store.file=onionsetu-release.jks \
+            -Pandroid.injected.signing.store.password="${{ secrets.ANDROID_KEYSTORE_PASSWORD }}" \
+            -Pandroid.injected.signing.key.alias="${{ secrets.ANDROID_KEY_ALIAS }}" \
+            -Pandroid.injected.signing.key.password="${{ secrets.ANDROID_KEY_PASSWORD }}"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: onionsetu-release-aab
+          path: android/app/build/outputs/bundle/release/app-release.aab
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: onionsetu-release-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+
+      - uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            android/app/build/outputs/bundle/release/app-release.aab
+            android/app/build/outputs/apk/release/app-release.apk
