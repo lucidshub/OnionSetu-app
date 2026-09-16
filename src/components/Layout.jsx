@@ -5,6 +5,7 @@ import { useAuth } from "../lib/auth";
 import { useI18n } from "../lib/i18n";
 import LanguageSelector from "./LanguageSelector";
 import { OnionMark } from "./OnionMark";
+import AppUpdater from "./AppUpdater";
 
 const baseNav = [
   { to:"/", key:"dashboard", icon: IconDashboard, roles:["farmer","grader"] },
@@ -164,6 +165,7 @@ export default function Layout({ children }){
             <button className="btn btn-primary" onClick={()=>{ setMenuOpen(false); nav2("/new"); }}><IconPlus/> <span>{t("start")}</span></button>
           </div>
         </header>
+        <AppUpdater />
         <div className="content">
           {children}
           <footer className="app-footer" style={{marginTop:32, padding:"18px 0 8px", borderTop:"1px solid #EDE3DC", display:"flex", flexWrap:"wrap", gap:12, justifyContent:"space-between", fontSize:12, color:"#6B5A54"}}>
