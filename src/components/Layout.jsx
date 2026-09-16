@@ -74,7 +74,7 @@ export default function Layout({ children }){
         <div
           aria-hidden="true"
           onClick={()=> setMenuOpen(false)}
-          style={{position:"fixed", inset:0, background:"rgba(23,17,15,.32)", backdropFilter:"blur(2px)", zIndex:39}}
+          style={{position:"fixed", inset:0, background:"rgba(23,17,15,.32)", zIndex:39}}
         />
       )}
       <aside

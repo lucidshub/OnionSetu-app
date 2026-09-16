@@ -37,12 +37,22 @@ export async function getCurrentVersion() {
  */
 export async function checkForUpdate() {
   if (!supportsInAppUpdate()) return null;
-  const [current, res] = await Promise.all([
-    getCurrentVersion(),
-    fetch(`https://api.github.com/repos/${REPO}/releases/latest`, {
-      headers: { Accept: 'application/vnd.github+json' },
-    }),
-  ]);
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 8000);
+  let current, res;
+  try {
+    [current, res] = await Promise.all([
+      getCurrentVersion(),
+      fetch(`https://api.github.com/repos/${REPO}/releases/latest`, {
+        headers: { Accept: 'application/vnd.github+json' },
+        signal: ctrl.signal,
+      }),
+    ]);
+  } catch {
+    clearTimeout(timer);
+    return null;
+  }
+  clearTimeout(timer);
   if (!res.ok) return null;
   const rel = await res.json();
   if (rel.draft || rel.prerelease) return null;
